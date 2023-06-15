@@ -9,7 +9,6 @@ import Features from './Features'
 export default function Home() {
   return (
     <section >
-      <div className='fixed z-10 bg-[#F9A8D4] mt-[70px]'></div>
       <div className='bg-gradient-to-b mb-[-90px] pt-12 from-[#321073] to-[#0599CF] '>
         <div className='my-3 mx-6 flex flex-col items-center justify-around h-100vh pt-20 pb-20 mb-[-110px] md:flex-row mb-[-400px]'>
           <div>
