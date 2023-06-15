@@ -10,7 +10,6 @@ export default function Ourservices(){
         <div className='bg-[#DBEAFE] pt-12 flex my-10 flex-col items-center justify-items-center'>
           <h1 className='text-4xl mb-3 font-bold mb-[-4px]'>Our services</h1>
           <div className='bg-[#2563EA] space-y-4 w-[80px] my-[5px] h-[7px]'></div>
-          <div className='w-[#30px] h-[#10px] mb-4  bg-[#2563EB]'></div>
           <p className='mt-[40px] text-xl text-[#6B7280]'>
             We are here to provide the best service available to suit your needs{' '}
           </p>

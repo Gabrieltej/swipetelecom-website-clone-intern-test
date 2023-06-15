@@ -3,12 +3,13 @@ import { IoIosExit } from 'react-icons/io'
 import { AiFillContacts } from 'react-icons/ai'
 import Services from './Services'
 import Features from './Features'
+import { Link } from 'react-router-dom'
 
 
 
 export default function Home() {
   return (
-    <section >
+    <section>
       <div className='bg-gradient-to-b mb-[-90px] pt-12 from-[#321073] to-[#0599CF] '>
         <div className='my-3 mx-6 flex flex-col items-center justify-around h-100vh pt-20 pb-20 mb-[-110px] md:flex-row mb-[-400px]'>
           <div>
@@ -34,14 +35,19 @@ export default function Home() {
                 affordable rate
               </p>
               <div className='flex gap-4 mt-8  justify-center items-center md:justify-start mb-10'>
-                <button className='bg-white rounded-xl p-3 flex gap-2 hover:bg-[#93C5FD]'>
-                  <IoIosExit className='text-3xl bg-transparent' />
-                  <h1 className='font-semibold'>Login</h1>
-                </button>
-                <button className='bg-[#4200C9] rounded p-3 flex gap-2 hover:bg-[#1E40AF]'>
-                  <AiFillContacts className='text-3xl text-white' />
-                  <h1 className='text-white'>SignUp</h1>
-                </button>
+                <Link to=''>
+                  <button className='bg-white rounded-xl p-3 flex gap-2 hover:bg-[#93C5FD]'>
+                    <IoIosExit className='text-3xl bg-transparent' />
+                    <h1 className='font-semibold'>Login</h1>
+                  </button>
+                </Link>
+
+                <Link to='signup'>
+                  <button className='bg-[#4200C9] rounded p-3 flex gap-2 hover:bg-[#1E40AF]'>
+                    <AiFillContacts className='text-3xl text-white' />
+                    <h1 className='text-white font-semibold'>Signup</h1>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

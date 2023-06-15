@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 export default function Login() {
   return (
     <>
-      <div className=' h-[110vh] flex items-center justify-center md:h-[110vh]'>
+      <div className=' h-[40rem] flex items-center justify-center md:h-[110vh]'>
         <div className=' h-[90%]  w-[60%] pb-[50px] flex border-[0.5px] border-[#E5E7EB] items-center flex-col rounded-xl md:bg-white h-[90%] outline-1 w-[600px] pt-10 pb-10 flex items-center flex-col rounded-xl '>
           {/* first area */}
           <div className='flex items-center gap-3 pl-4 pr-4 justify-center'>
