@@ -13,10 +13,10 @@ export default function Home() {
       <div className='bg-gradient-to-b mb-[-90px] pt-12 from-[#321073] to-[#0599CF] '>
         <div className='my-3 mx-6 flex flex-col items-center justify-around h-100vh pt-20 pb-20 mb-[-110px] md:flex-row mb-[-400px]'>
           <div>
-            <h1 className='text-6xl text-center font-bold  text-[#F9A8D4] md:text-left'>
+            <h1 className='text-5xl text-center font-bold  text-[#F9A8D4] md:text-left'>
               Swipe
             </h1>
-            <h1 className='text-2xl text-center font-bold text-white md:text-6xl'>
+            <h1 className='text-2xl text-center font-bold text-white md:text-5xl md:text-left'>
               Telecommunication
             </h1>
             <h1 className='text-2xl text-center font-bold text-white md:text-6xl md:text-left'>
@@ -35,7 +35,7 @@ export default function Home() {
                 affordable rate
               </p>
               <div className='flex gap-4 mt-8  justify-center items-center md:justify-start mb-10'>
-                <Link to=''>
+                <Link to='/login'>
                   <button className='bg-white rounded-xl p-3 flex gap-2 hover:bg-[#93C5FD]'>
                     <IoIosExit className='text-3xl bg-transparent' />
                     <h1 className='font-semibold'>Login</h1>
